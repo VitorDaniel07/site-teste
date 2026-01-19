@@ -6,7 +6,7 @@ export default function App() {
     <Authenticator>
       {({ signOut, user }) => (
         <main>
-          <h1>Bem-vindo ao site do Vitor!</h1>
+          <h1>Bem-vindo ao site do Vitor Daniel!</h1>
           <p>Você está logado como: {user?.signInDetails?.loginId}</p>
           <button 
             onClick={signOut} 
