@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;           /* Transforma o corpo do site num container flex */
+  place-items: center;     /* Centraliza o conteúdo (o #root) no meio da tela */
+  justify-content: center; /* Garante o centro horizontal */
+}
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;           /* Transforma o #root num container flex também */
+  flex-direction: column;  /* Organiza os itens (título, botão) um embaixo do outro */
+  align-items: center;     /* Centraliza os itens na horizontal */
+  justify-content: center; /* Centraliza os itens na vertical */
+}
